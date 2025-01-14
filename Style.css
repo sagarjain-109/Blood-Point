@@ -1,0 +1,153 @@
+*{
+    line-height: 30px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 6px;
+    border: none;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+body{
+    background: url('./assets/blood1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+    background-color: #eb0e0e;
+    color: white;
+}
+.name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.parents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.details,.address,.detailadd,.birth,.extra,.father,.mother{
+    display: flex;
+    justify-content: space-between;
+}
+.weight{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+.pulse{
+    display: flex;
+    justify-content: space-between;
+    width: 30.5%;
+}
+.bp{
+    display: flex;
+    justify-content: space-between;
+}
+.choice{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.last{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.ph{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    width: 84%;
+    background-color: transparent;
+    border: 1px solid #eb0e0e;
+
+}
+.two{
+    width: 84%;
+    background-color: transparent;
+    border: 1px solid #eb0e0e; 
+}
+.three,.other{
+    background-color: transparent;
+    border: 1px solid #eb0e0e;
+}
+.four{
+    width: 49%;
+    background-color: transparent;
+    border: 1px solid #eb0e0e;
+}
+.five{
+    width: 84%;
+    background-color: transparent;
+    border: 1px solid #eb0e0e;
+}
+.six{
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid #eb0e0e;
+}
+
+.button{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #eb0e0e;
+    color: black;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
+@media screen and (min-width: 200px) and (max-width:1200px){
+    body{
+        background-size: 100% 100%;
+        background-image: url(./assets/img.png);   
+    }
+    *{
+        flex-wrap: wrap;
+        font-weight: 400px;
+        font-family: sans-serif;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        height: 30px;
+        justify-content:    start;
+        align-items: center;
+    }
+    h3{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 1000px;
+        background-color: transparent;
+        color: Red;
+    }
+}
